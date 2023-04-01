@@ -1,0 +1,175 @@
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-track {
+  width: 0px;
+}
+/* ::-webkit-scrollbar-thumb{ background: #000000d1; border-radius: 0px;} */
+
+.homeNote {
+  width: 100%;
+  margin-top: 80px;
+  padding: 20px 40px 20px 40px;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.createCard {
+  width: 271px;
+  height: 280px;
+  background: #748484;
+  color: white;
+  /* border: 1px solid #ffffff61; */
+  padding: 0 0 30px 0;
+  box-shadow: 0px 0px 5px 0 #9c9c9c17;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  /* cursor: pointer; */
+  transition: all 0.2s;
+  
+}
+
+.createCard .up {
+  width: 100%;
+  height: 210px;
+  z-index: 3;
+  position: absolute;
+  top: 40px;
+}
+
+.createCard h2 {
+  width: 100%;
+  height: 40px;
+  color: #080808c7;
+  /* border-bottom: 1px solid #cbcbcb7d; */
+  text-align: start;
+  padding-left: 15px;
+  line-height: 40px;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+.createCard .sr{
+  width: 120%;
+  height: 180px;
+  position: absolute;
+  top: 39px;
+  left: -20px;
+  border: 1px solid #00000000;
+}
+
+.createCard .vi{
+  width: 120%;
+  height: 180px;
+  object-fit: cover;
+  position: absolute;
+  top: 39px;
+  /* left: -20px; */
+  border: 1px solid #00000000;
+}
+
+.createCard .mu{
+  height: 40px;
+  width: 98%;
+  position: absolute;  top: 40px;
+  /* border-radius: 20px; */
+}
+
+
+.createCard .text {
+  width: 265px;
+  height: 230px;
+  margin-top: -15px;
+  background: #0ba8a800;
+  border: 0;
+  outline: 0;
+  color: #080808e5;
+  font-size: 14px;
+  padding: 10px;
+  resize: none;
+  /* overflow: hidden; */
+  /* z-index: -1; */
+}
+
+.createCard .options {
+  color: #454545;
+  /* scale: 1.1; */
+  position: absolute;
+  bottom: 4px;
+  left: 7px;
+  padding: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.2s;
+  z-index: 5;
+}
+
+.createCard .options:hover {
+  background: #adadadac;
+}
+
+.createCard .hoverAddresses {
+  width: 0%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* padding: 0 30px 0 30px; */
+  background-color: #c6c6c648;
+  position: absolute;
+  bottom: 0px;
+  transition: all 0.3s;
+  z-index: 3;
+  /* opacity: 0; */
+  color: #454545;
+}
+
+.createCard .hoverAddresses ion-icon {
+  padding: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #454545;
+}
+
+.createCard .hoverAddresses .remove:hover {
+  background-color: #adadadac;
+  /* color: rgb(225, 225, 225); */
+  /* color: #d9d9d9; */
+}
+
+.createCard .hoverAddresses .valueColor {
+  width: 0%;
+  height: 100%;
+  /* background-color: #ff0000b8; */
+  padding: 0 10px 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  transition: all 0.3s;
+}
+
+.createCard .hoverAddresses .valueColor p {
+  width: 20px;
+  height: 20px;
+  /* background-color: red; */
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.createCard .hoverAddresses .valueColor .color1 { background: #4ba8a9; }
+.createCard .hoverAddresses .valueColor .color2 { background: #a9a94b; }
+.createCard .hoverAddresses .valueColor .color3 { background: #924ba9; }
+.createCard .hoverAddresses .valueColor .color4 { background: #4b5ea9; }
+.createCard .hoverAddresses .valueColor .color5 { background: #4ba94e; }
+.createCard .hoverAddresses .valueColor .color6 { background: #a94b54; }
